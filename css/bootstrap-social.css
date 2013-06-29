@@ -1,3 +1,12 @@
+/*
+ * Social Buttons for Bootstrap
+ *
+ * Copyright 2013 Panayiotis Lipiridis
+ * Licensed under the MIT License
+ *
+ * https://github.com/lipis/bootstrap-social
+ */
+
 .btn-bitbucket{position:relative;padding-left:40px;padding-right:12px;background-color:#205081;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);background-color:#1e4b79;background-image:-moz-linear-gradient(top, #205081, #1b436d);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#205081), to(#1b436d));background-image:-webkit-linear-gradient(top, #205081, #1b436d);background-image:-o-linear-gradient(top, #205081, #1b436d);background-image:linear-gradient(to bottom, #205081, #1b436d);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff205081', endColorstr='#ff1b436d', GradientType=0);border-color:#1b436d #1b436d #0c1d2f;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*background-color:#1b436d;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false)}.btn-bitbucket:hover,.btn-bitbucket:focus,.btn-bitbucket:active,.btn-bitbucket.active,.btn-bitbucket.disabled,.btn-bitbucket[disabled]{color:#fff;background-color:#1b436d;*background-color:#163758}
 .btn-bitbucket:active,.btn-bitbucket.active{background-color:#112a44 \9}
 .btn-bitbucket i{position:absolute;left:0;top:0;bottom:0;width:28px;line-height:28px;font-size:1.5em;text-align:center;border-right:1px solid rgba(0,0,0,0.1)}
