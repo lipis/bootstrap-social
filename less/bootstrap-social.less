@@ -1,0 +1,74 @@
+.btn-social(@color) {
+  // Update the padding values when using a different theme than the default.
+  @paddingBaseVertical: 4px;
+  @paddingBaseHorizontal: 12px;
+  @paddingLargeVertical: 11px;
+  @paddingLargeHorizontal: 19px;
+  @paddingSmallVertical: 2px;
+  @paddingSmallHorizontal: 10px;
+  @paddingMiniVertical: 1px;
+  @paddingMiniHorizontal: 6px;
+  @height: @baseLineHeight + @paddingBaseVertical * 2;
+  position: relative;
+  padding-left: @height + @paddingBaseHorizontal;
+  padding-right: @paddingBaseHorizontal;
+  background-color: @color;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  .buttonBackground(@color, darken(@color, 5%));
+  i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: @height;
+    line-height: @height;
+    font-size: 1.5em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  &.btn-large {
+    @height: @baseLineHeight + @paddingLargeVertical * 2;
+    padding-left: @height + @paddingLargeHorizontal;
+    padding-right: @paddingLargeHorizontal;
+    i {
+      line-height: @height;
+      width: @height;
+      font-size: 1.8em;
+    }
+  }
+  &.btn-small {
+    @height: @baseLineHeight + @paddingSmallVertical * 2;
+    padding-left: @height + @paddingSmallHorizontal;
+    padding-right: @paddingSmallHorizontal;
+    i {
+      line-height: @height;
+      width: @height;
+      font-size: 1.4em;
+    }
+  }
+  &.btn-mini {
+    @height: @baseLineHeight + @paddingMiniVertical * 2;
+    padding-left: @height + @paddingMiniHorizontal;
+    padding-right: @paddingMiniHorizontal;
+    i {
+      line-height: @height;
+      width: @height;
+      font-size: 1.2em;
+    }
+  }
+}
+
+.btn-bitbucket   { .btn-social(#205081); }
+.btn-dropbox     { .btn-social(#1087DD); }
+.btn-facebook    { .btn-social(#3B5998); }
+.btn-twitter     { .btn-social(#2BA9E1); }
+.btn-github      { .btn-social(#0F0D0E); }
+.btn-instagram   { .btn-social(#517FA4); }
+.btn-google-plus { .btn-social(#DD4B39); }
+.btn-flickr      { .btn-social(#FF0084); }
+.btn-linkedin    { .btn-social(#4875B4); }
+.btn-pinterest   { .btn-social(#CB2027); }
+.btn-tumblr      { .btn-social(#2C4762); }

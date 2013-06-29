@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Buttons for Bootstrap</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet" >
+    <link href="css/docs.css" rel="stylesheet" >
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <h1>Social Buttons for Bootstrap</h1>
+      <p class="lead">
+        Social Buttons made in pure CSS based on
+        <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> and
+        <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
+      </p>
+      <p>
+        <a class="btn btn-primary"><i class="icon-download"></i> Download from GitHub</a>
+      </p>
+      <ul class="links">
+        <li><a href="https://github.com/lipis/bootstrap-social-buttons">GitHub Project</a></li>
+        <li>Version 1.0.0</li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="span3 offset1 social-buttons">
+          <h3>The Buttons</h3>
+
+          <a class="btn btn-block btn-bitbucket">
+            <i class="icon-bitbucket"></i>
+            Sign in with Bitbucket
+          </a>
+
+          <a class="btn btn-block btn-dropbox">
+            <i class="icon-dropbox"></i>
+            Sign in with Dropbox
+          </a>
+
+          <a class="btn btn-block btn-facebook">
+            <i class="icon-facebook"></i>
+            Sign in with Facebook
+          </a>
+
+          <a class="btn btn-block btn-flickr">
+            <i class="icon-flickr"></i>
+            Sign in with Flickr
+          </a>
+
+          <a class="btn btn-block btn-github">
+            <i class="icon-github"></i>
+            Sign in with Github
+          </a>
+
+          <a class="btn btn-block btn-google-plus">
+            <i class="icon-google-plus"></i>
+            Sign in with Google
+          </a>
+
+          <a class="btn btn-block btn-instagram">
+            <i class="icon-instagram"></i>
+            Sign in with Instagram
+          </a>
+
+          <a class="btn btn-block btn-linkedin">
+            <i class="icon-linkedin"></i>
+            Sign in with LinkedIn
+          </a>
+
+          <a class="btn btn-block btn-pinterest">
+            <i class="icon-pinterest"></i>
+            Sign in with Pinterest
+          </a>
+
+          <a class="btn btn-block btn-tumblr">
+            <i class="icon-tumblr"></i>
+            Sign in with Tumblr
+          </a>
+
+          <a class="btn btn-block btn-twitter">
+            <i class="icon-twitter"></i>
+            Sign in with Twitter
+          </a>
+        </div>
+        <div class="span3">
+          <h3>Available classes</h3>
+          <ul class="social-class unstyled">
+            <li><code data-code="bitbucket" data-name="Bitbucket">btn-bitbucket</code></li>
+            <li><code data-code="dropbox" data-name="Dropbox">btn-dropbox</code></li>
+            <li><code data-code="facebook" data-name="Facebook">btn-facebook</code></li>
+            <li><code data-code="flickr" data-name="Flickr">btn-flickr</code></li>
+            <li><code data-code="github" data-name="GitHub">btn-github</code></li>
+            <li><code data-code="google-plus" data-name="Google">btn-google-plus</code></li>
+            <li><code data-code="instagram" data-name="Instagram">btn-instagram</code></li>
+            <li><code data-code="linkedin" data-name="LinkedIn">btn-linkedin</code></li>
+            <li><code data-code="pinterest" data-name="Pinterest">btn-pinterest</code></li>
+            <li><code data-code="tumblr" data-name="Tumblr">btn-tumblr</code></li>
+            <li><code data-code="twitter" data-name="Twitter">btn-twitter</code></li>
+          </ul>
+        </div>
+        <div class="span4">
+          <div class="social-sizes">
+            <h3>Different Sizes</h3>
+
+            <a class="btn btn-block btn-large btn-google-plus">
+              <i class="icon-google-plus"></i>
+              Sign in with Google
+            </a>
+
+            <a class="btn btn-block btn-google-plus">
+              <i class="icon-google-plus"></i>
+              Sign in with Google
+            </a>
+
+            <a class="btn btn-block btn-small btn-google-plus">
+              <i class="icon-google-plus"></i>
+              Sign in with Google
+            </a>
+
+            <a class="btn btn-block btn-mini btn-google-plus">
+              <i class="icon-google-plus"></i>
+              Sign in with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="span8 offset2">
+          <div class="how-to">
+            <h2>How to use</h2>
+            <ol>
+              <li>
+                Include Bootstrap and Font Awesome
+                <p>
+                  If you haven't done that already, include
+                  <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> (2.3.2)
+                  and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> in your project.
+                </p>
+              </li>
+              <li>
+                Include the CSS or LESS
+                <p>
+                  You have two options for enabling the social buttons in your project:
+                  vanilla CSS or source LESS. For vanilla CSS, just include the
+                  compiled CSS file from the <code>/css</code> in the repository.
+                </p>
+                <p>
+                  For LESS, copy over the .less file from <code>/less</code> into
+                  your existing Bootstrap directory. Then import it into
+                  <code>bootstrap.less</code> via
+                  <code>@import "bootstrap-social.less";</code>. Recompile when ready.
+                </p>
+              </li>
+              <li>
+                Add some buttons!
+                <p>
+                  After you've added the CSS, you can get to using the buttons
+                  as you've normally do with the Bootstrap buttons that have an
+                  icon by adding the relevant class. For example:
+                </p>
+                <pre>
+&lt;a class=&quot;btn btn-block btn-twitter&quot;&gt;
+  &lt;i class=&quot;icon-twitter&quot;&gt;&lt;/i&gt;
+  Sign in with Twitter
+&lt;/a&gt;</pre>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer>
+      <ul class="links">
+        <li><a href="http://stackoverflow.com/8418/lipis"><i class="icon-stackexchange"></i> Lipis</a></li>
+        <li><a href="http://github.com/lipis"><i class="icon-github"></i> GitHub</a></li>
+        <li><a href="http://bitbucket.com/lipis"><i class="icon-bitbucket"> BitBucket</i></a></li>
+        <li><a href="http://twitter.com/lipis"><i class="icon-twitter"></i> Twitter</a></li>
+        <li><a href="http://opensource.org/licenses/MIT"><i class="icon-building"></i> MIT License</a></li>
+      </ul>
+    </footer>
+
+    <!-- Some JavaScript that is used only in the demo, not needed for the icons -->
+    <script src="js/jquery.js"></script>
+    <script>
+      $(function () {
+        var all_classes = "";
+        var timer = undefined;
+        $.each($('code', '.social-class'), function (index, element) {
+          all_classes += " btn-" + $(element).data("code");
+        });
+        $('code', '.social-class').mouseenter(function () {
+          var icon = "<i class='icon-" + $(this).data("code") + "'></i>";
+          $('.btn', '.social-sizes').html(icon + "Sign in with " + $(this).data("name"));
+          $('.btn', '.social-sizes').removeClass(all_classes);
+          $('.btn', '.social-sizes').addClass("btn-" + $(this).data('code'));
+        });
+        $($('code', '.social-class')[Math.floor($('code', '.social-class').length * Math.random())]).mouseenter();
+      });
+    </script>
+  </body>
+</html>
