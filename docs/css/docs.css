@@ -1,0 +1,26 @@
+.bs2 .jumbotron{margin-bottom:20px;padding:80px 20px;text-align:center;background-color:#eed}.bs2 .jumbotron h1{font-size:64px;line-height:1}
+.bs2 .jumbotron p{font-size:21px;font-weight:200;line-height:30px}
+.bs2 .jumbotron .btn{font-size:21px;padding:14px 24px}
+@media (max-width:767px){.bs2 .jumbotron{margin-left:-20px;margin-right:-20px}.bs2 .jumbotron h1{font-size:42px} .bs2 .jumbotron p{font-size:18px} .bs2 .jumbotron .btn{font-size:18px;padding:10px 18px}}
+.bs3{}.bs3 body{font-weight:300}
+.bs3 .container{max-width:700px}
+.bs3 h2{text-align:center;font-weight:300}
+.bs3 .jumbotron{position:relative;font-size:16px;color:#fff;color:rgba(255,255,255,0.75);text-align:center;background-color:#b94a48;border-radius:0}.bs3 .jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
+.bs3 .btn-outline{margin-top:15px;margin-bottom:15px;padding:18px 24px;font-size:inherit;font-weight:500;color:#fff;background-color:transparent;border-color:#fff;border-color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.bs3 .btn-outline:hover,.bs3 .btn-outline:active{color:#b94a48;background-color:#fff;border-color:#fff}
+.bs3 .jumbotron p a,.bs3 .jumbotron-links a{font-weight:500;color:#fff;transition:all .1s ease-in-out}
+.bs3 .jumbotron p a:hover,.bs3 .jumbotron-links a:hover{text-shadow:0 0 10px rgba(255,255,255,0.55)}
+.bs3 .jumbotron-links{margin-top:15px;margin-bottom:0;padding-left:0;list-style:none;font-size:14px}
+.bs3 .jumbotron-links li{display:inline}
+.bs3 .jumbotron-links li+li{margin-left:20px}
+@media (min-width:768px){.bs3 .jumbotron{padding:80px 20px;font-size:21px} .bs3 .jumbotron h1,.bs3 .jumbotron .glyphicon-ok{font-size:50px}}
+.how-to{padding:20px}.how-to h2{text-align:center}
+.how-to li{font-size:21px;line-height:1.7;margin-top:20px}.how-to li p{font-size:16px;color:#555}
+.how-to code{font-size:85%;color:#b94a48;background-color:#fcf3f2;word-wrap:break-word;white-space:normal}
+footer{text-align:center;opacity:.8;padding:20px 0 40px}
+.links{margin:0;list-style:none;padding-left:0}.links li{display:inline;padding:0 10px}
+.link-bootstrap3{position:absolute;top:0;right:0;width:192px;height:96px;background-color:#f00;background:url(../icon/link-bootstrap3.png);background-size:contain}
+.link-bootstrap2{position:absolute;top:0;right:0;width:192px;height:96px;background-color:#f00;background:url(../icon/link-bootstrap2.png);background-size:contain}
+.social-class .social-hex{font-family:Monaco,Menlo,Consolas,"Courier New",monospace;font-size:10px;opacity:.3;float:right}
+.social-class li{margin-bottom:4px}.social-class li:hover .social-hex{opacity:1}
+.social-class li:hover code{background-color:#e8e8ee}
+.social-class code{cursor:default}
