@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" class="bs3">
+<html lang="en" class="bs2">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Buttons for Bootstrap 3</title>
-    <link href="docs/css/bootstrap3.css" rel="stylesheet">
+    <title>Social Buttons for Bootstrap 2</title>
+    <link href="docs/css/bootstrap2.css" rel="stylesheet">
     <link href="docs/css/font-awesome.css" rel="stylesheet">
     <link href="docs/css/docs.css" rel="stylesheet" >
 
-    <link href="css/bootstrap-social-3.css" rel="stylesheet" >
+    <link href="css/bootstrap-social.css" rel="stylesheet" >
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-42119746-1', 'lipis.github.io');
+      ga('send', 'pageview');
+    </script>
   </head>
 
   <body>
     <div class="jumbotron">
-      <div class="container">
-        <h1>Social Buttons for Bootstrap 3</h1>
-        <p>
-          Social Buttons made in pure CSS based on
-          <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> and
-          <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
-        </p>
-        <a href="https://github.com/lipis/bootstrap-social/archive/gh-pages.zip" class="btn btn-outline btn-large"><i class="icon-github"></i> Download from GitHub</a>
-        <ul class="jumbotron-links">
-          <li><a href="https://github.com/lipis/bootstrap-social">GitHub Project</a></li>
-          <li>Version 1.0.0</li>
-        </ul>
-      </div>
+      <h1>Social Buttons for Bootstrap 2</h1>
+      <p>
+        Social Buttons made in pure CSS based on
+        <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> and
+        <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
+      </p>
+      <p>
+        <a class="btn btn-primary" href="https://github.com/lipis/bootstrap-social/archive/gh-pages.zip">
+          <i class="icon-github"></i> Download from GitHub
+        </a>
+      </p>
+      <ul class="links">
+        <li><a href="https://github.com/lipis/bootstrap-social">GitHub Project</a></li>
+        <li>Version 1.0.0</li>
+      </ul>
     </div>
-
-    <div class="body-content">
+    <div class="container">
       <div class="row">
-        <div class="col col-lg-3 col-sm-3 col-offset-1 social-buttons">
+        <div class="span3 offset1 social-buttons">
           <h3>The Buttons</h3>
           <a class="btn btn-block btn-bitbucket">
             <i class="icon-bitbucket"></i> Sign in with Bitbucket
@@ -66,10 +77,10 @@
             <i class="icon-twitter"></i> Sign in with Twitter
           </a>
         </div>
-        <div class="col col-lg-3 col-sm-3">
+        <div class="span3">
           <h3>Available Classes</h3>
-          <ul class="social-class list-unstyled">
-            <li data-code="bitbucket" data-name="Bitbucket"><code>btn-bitbucket</code> <col-lg- class="social-hex">#205081</span></li>
+          <ul class="social-class unstyled">
+            <li data-code="bitbucket" data-name="Bitbucket"><code>btn-bitbucket</code> <span class="social-hex">#205081</span></li>
             <li data-code="dropbox" data-name="Dropbox"><code>btn-dropbox</code> <span class="social-hex">#1087DD</span></li>
             <li data-code="facebook" data-name="Facebook"><code>btn-facebook</code> <span class="social-hex">#3B5998</span></li>
             <li data-code="flickr" data-name="Flickr"><code>btn-flickr</code> <span class="social-hex">#2BA9E1</span></li>
@@ -82,7 +93,7 @@
             <li data-code="twitter" data-name="Twitter"><code>btn-twitter</code> <span class="social-hex">#2C4762</span></li>
           </ul>
         </div>
-        <div class="col col-lg-4 col-sm-4">
+        <div class="span4">
           <div class="social-sizes">
             <h3>Different Sizes</h3>
 
@@ -100,51 +111,59 @@
               <i class="icon-google-plus"></i>
               Sign in with Google
             </a>
+
+            <a class="btn btn-block btn-mini btn-google-plus">
+              <i class="icon-google-plus"></i>
+              Sign in with Google
+            </a>
           </div>
         </div>
       </div>
     </div>
-
     <hr>
-    <div class="how-to">
-      <div class="container">
-        <h2>How to use</h2>
-        <ol>
-          <li>
-            Include Bootstrap and Font Awesome
-            <p>
-              If you haven't done that already, include
-              <a href="http://twitter.github.io/bootstrap/">Bootstrap 3</a>
-              and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> in your project.
-            </p>
-          </li>
-          <li>
-            Include the CSS or LESS
-            <p>
-              You have two options for enabling the social buttons in your project:
-              vanilla CSS or source LESS. For vanilla CSS, just include the
-              compiled CSS file from the <code>/css</code> in the repository.
-            </p>
-            <p>
-              For LESS, copy over the .less file from <code>/less</code> into
-              your existing Bootstrap directory. Then import it into
-              <code>bootstrap.less</code> via
-              <code>@import "bootstrap-social-3.less";</code>. Recompile when ready.
-            </p>
-          </li>
-          <li>
-            Add some buttons!
-            <p>
-              After you've added the CSS, you can get to using the buttons
-              as you've normally do with the Bootstrap buttons that have an
-              icon by adding the relevant class. For example:
-            </p>
-            <pre>
-  &lt;a class=&quot;btn btn-block btn-twitter&quot;&gt;
-    &lt;i class=&quot;icon-twitter&quot;&gt;&lt;/i&gt; Sign in with Twitter
-  &lt;/a&gt;</pre>
-          </li>
-        </ol>
+    <div class="container">
+      <div class="row">
+        <div class="span8 offset2">
+          <div class="how-to">
+            <h2>How to use</h2>
+            <ol>
+              <li>
+                Include Bootstrap and Font Awesome
+                <p>
+                  If you haven't done that already, include
+                  <a href="http://twitter.github.io/bootstrap/">Bootstrap 2</a>
+                  and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> in your project.
+                </p>
+              </li>
+              <li>
+                Include the CSS or LESS
+                <p>
+                  You have two options for enabling the social buttons in your project:
+                  vanilla CSS or source LESS. For vanilla CSS, just include the
+                  compiled CSS file from the <code>/css</code> in the repository.
+                </p>
+                <p>
+                  For LESS, copy over the .less file from <code>/less</code> into
+                  your existing Bootstrap directory. Then import it into
+                  <code>bootstrap.less</code> via
+                  <code>@import "bootstrap-social.less";</code>. Recompile when ready.
+                </p>
+              </li>
+              <li>
+                Add some buttons!
+                <p>
+                  After you've added the CSS, you can get to using the buttons
+                  as you've normally do with the Bootstrap buttons that have an
+                  icon by adding the relevant class. For example:
+                </p>
+                <pre>
+&lt;a class=&quot;btn btn-block btn-twitter&quot;&gt;
+  &lt;i class=&quot;icon-twitter&quot;&gt;&lt;/i&gt; Sign in with Twitter
+&lt;/a&gt;</pre>
+              </li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
     <hr>
@@ -157,9 +176,9 @@
         <li><a href="http://opensource.org/licenses/MIT"><i class="icon-building"></i> MIT License</a></li>
       </ul>
     </footer>
-    <a href="https://github.com/lipis/bootstrap-social"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    <a href="index.html" class="link-bootstrap2" title="Bootstrap 2"></a>
 
+    <a href="https://github.com/lipis/bootstrap-social"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <a href="index.html" class="link-bootstrap3" title="Bootstrap 3"></a>
     <!-- Some JavaScript that is used only in the demo, not needed for the icons -->
     <script src="docs/js/jquery.js"></script>
     <script src="docs/js/docs.js"></script>

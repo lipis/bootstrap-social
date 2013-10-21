@@ -17,8 +17,8 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  .btn-pseudo-states(white, @color, rgba(0, 0, 0, 0.2));
-  i {
+  .button-variant(white, @color, rgba(0, 0, 0, 0.2));
+  :first-child {
     position: absolute;
     left: 0;
     top: 0;
@@ -29,28 +29,37 @@
     text-align: center;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
-  &.btn-large {
+  &.btn-lg {
     @height: floor(@font-size-large * @line-height-base) + @padding-large-vertical * 2;
     padding-left: @height + @padding-large-horizontal;
     padding-right: @padding-large-horizontal;
-    i {
+    :first-child {
       line-height: @height;
       width: @height;
       font-size: 2em;
     }
   }
-  &.btn-small {
+  &.btn-sm {
     @height: floor(@font-size-small * 1.5) + @padding-small-vertical * 2;
     padding-left: @height + @padding-small-horizontal;
     padding-right: @padding-small-horizontal;
-    i {
+    :first-child {
       line-height: @height;
       width: @height;
       font-size: 1.5em;
     }
   }
+  &.btn-xs {
+    @height: floor(@font-size-small * 1.2) + @padding-small-vertical + 1;
+    padding-left: @height + @padding-small-horizontal;
+    padding-right: @padding-small-horizontal;
+    :first-child {
+      line-height: @height;
+      width: @height;
+      font-size: 1.2em;
+    }
+  }
 }
-
 
 .btn-bitbucket   { .btn-social(#205081); }
 .btn-dropbox     { .btn-social(#1087DD); }

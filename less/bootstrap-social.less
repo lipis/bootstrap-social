@@ -27,7 +27,7 @@
   white-space: nowrap;
   overflow: hidden;
   .buttonBackground(@color, darken(@color, 5%));
-  i {
+  :first-child {
     position: absolute;
     left: 0;
     top: 0;
@@ -42,7 +42,7 @@
     @height: @baseLineHeight + @paddingLargeVertical * 2;
     padding-left: @height + @paddingLargeHorizontal;
     padding-right: @paddingLargeHorizontal;
-    i {
+    :first-child {
       width: @height;
       font-size: 1.8em;
       line-height: @height;
@@ -52,7 +52,7 @@
     @height: @baseLineHeight + @paddingSmallVertical * 2;
     padding-left: @height + @paddingSmallHorizontal;
     padding-right: @paddingSmallHorizontal;
-    i {
+    :first-child {
       width: @height;
       font-size: 1.4em;
       line-height: @height;
@@ -62,7 +62,7 @@
     @height: @baseLineHeight + @paddingMiniVertical * 2;
     padding-left: @height + @paddingMiniHorizontal;
     padding-right: @paddingMiniHorizontal;
-    i {
+    :first-child {
       width: @height;
       font-size: 1.2em;
       line-height: @height;

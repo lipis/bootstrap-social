@@ -3,8 +3,6 @@
 .bs2 .jumbotron .btn{font-size:21px;padding:14px 24px}
 @media (max-width:767px){.bs2 .jumbotron{margin-left:-20px;margin-right:-20px}.bs2 .jumbotron h1{font-size:42px} .bs2 .jumbotron p{font-size:18px} .bs2 .jumbotron .btn{font-size:18px;padding:10px 18px}}
 .bs3{}.bs3 body{font-weight:300}
-.bs3 .body-content{padding-left:15px;padding-right:15px}
-.bs3 .container{max-width:700px}
 .bs3 h2{text-align:center;font-weight:300}
 .bs3 .jumbotron{position:relative;font-size:16px;color:#fff;color:rgba(255,255,255,0.75);text-align:center;background-color:#b94a48;border-radius:0}.bs3 .jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
 .bs3 .btn-outline{margin-top:15px;margin-bottom:15px;padding:18px 24px;font-size:inherit;font-weight:500;color:#fff;background-color:transparent;border-color:#fff;border-color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.bs3 .btn-outline:hover,.bs3 .btn-outline:active{color:#b94a48;background-color:#fff;border-color:#fff}
