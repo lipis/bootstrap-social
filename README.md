@@ -1,5 +1,5 @@
-Social Buttons for Bootstrap
-============================
+Social Buttons for Bootstrap 2 & 3
+==================================
 Social Buttons made in pure CSS based on
 [Bootstrap](http://twitter.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
