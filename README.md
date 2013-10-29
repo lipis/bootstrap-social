@@ -1,5 +1,6 @@
-Social Buttons for Bootstrap 2 & 3
-==================================
+Social Buttons for Bootstrap
+============================
+
 Social Buttons made in pure CSS based on
 [Bootstrap](http://twitter.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
@@ -19,10 +20,11 @@ Available classes
  - `btn-pinterest`
  - `btn-tumblr`
  - `btn-twitter`
+ - `btn-vk`
 
 Example
 -------
-    <a class="btn btn-block btn-twitter">
-      <i class="icon-twitter"></i>
+    <a class="btn btn-block btn-social btn-twitter">
+      <i class="fa fa-twitter"></i>
       Sign in with Twitter
     </a>
