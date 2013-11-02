@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Buttons for Bootstrap 3</title>
+    <title>Social Buttons for Bootstrap</title>
     <link href="docs/css/bootstrap.css" rel="stylesheet">
     <link href="docs/css/font-awesome.css" rel="stylesheet">
     <link href="docs/css/docs.css" rel="stylesheet" >
@@ -23,12 +23,65 @@
         <a href="https://github.com/lipis/bootstrap-social/archive/gh-pages.zip" class="btn btn-outline btn-large"><i class="fa fa-github"></i> Download from GitHub</a>
         <ul class="jumbotron-links">
           <li><a href="https://github.com/lipis/bootstrap-social">GitHub Project</a></li>
-          <li>Version 3.0.0</li>
+          <li>Version 4.0.0</li>
         </ul>
       </div>
     </div>
 
     <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a class="btn btn-danger">
+            BS Button
+          </a>
+          <a class="btn btn-social btn-bitbucket">
+            <i class="fa fa-bitbucket"></i> Bitbucket
+          </a>
+          <a class="btn btn-social-icon btn-dropbox">
+            <i class="fa fa-dropbox"></i>
+          </a>
+          <a class="btn btn-warning btn-lg">
+            LG Button
+          </a>
+          <a class="btn btn-social btn-lg btn-facebook">
+            <i class="fa fa-facebook"></i> Facebook
+          </a>
+          <a class="btn btn-social-icon btn-lg btn-flickr">
+            <i class="fa fa-flickr"></i>
+          </a>
+          <a class="btn btn-info btn-sm">
+            SM Button
+          </a>
+          <a class="btn btn-social btn-sm btn-github">
+            <i class="fa fa-github"></i> GitHub
+          </a>
+          <a class="btn btn-social-icon btn-sm btn-google-plus">
+            <i class="fa fa-google-plus"></i>
+          </a>
+          <a class="btn btn-primary btn-xs">
+            XS Button
+          </a>
+          <a class="btn btn-social btn-xs btn-instagram">
+            <i class="fa fa-instagram"></i> Instagram
+          </a>
+          <a class="btn btn-social-icon btn-xs btn-linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a class="btn btn-social-icon btn-pinterest">
+            <i class="fa fa-pinterest"></i>
+          </a>
+          <a class="btn btn-social-icon btn-tumblr">
+            <i class="fa fa-tumblr"></i>
+          </a>
+          <a class="btn btn-social-icon btn-twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="btn btn-social-icon btn-vk">
+            <i class="fa fa-vk"></i>
+          </a>
+        </div>
+      </div>
+      <hr>
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3>The Buttons</h3>
@@ -68,7 +121,24 @@
           <a class="btn btn-block btn-social btn-vk">
             <i class="fa fa-vk"></i> Sign in with VK
           </a>
-        </div>
+
+          <hr>
+
+          <div class="text-center">
+            <a class="btn btn-social-icon btn-bitbucket"><i class="fa fa-bitbucket"></i></a>
+            <a class="btn btn-social-icon btn-dropbox"><i class="fa fa-dropbox"></i></a>
+            <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-flickr"><i class="fa fa-flickr"></i></a>
+            <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+            <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+            <a class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+            <a class="btn btn-social-icon btn-pinterest"><i class="fa fa-pinterest"></i></a>
+            <a class="btn btn-social-icon btn-tumblr"><i class="fa fa-tumblr"></i></a>
+            <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-social-icon btn-vk"><i class="fa fa-vk"></i></a>
+          </div>
+      </div>
         <div class="col-sm-4">
           <h3>Available Classes</h3>
           <ul class="social-class list-unstyled">
@@ -108,12 +178,18 @@
               <i class="fa fa-google-plus"></i>
               Sign in with Google
             </a>
+            <hr>
+            <div class="text-center">
+              <a class="btn btn-social-icon btn-lg btn-google-plus"><i class="fa fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-sm btn-google-plus"><i class="fa fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-xs btn-google-plus"><i class="fa fa-google-plus"></i></a>
+            </div>
           </div>
         </div>
       </div>
+      <hr>
     </div>
-
-    <hr>
     <div class="how-to">
       <div class="container">
         <div class="row">
@@ -150,8 +226,15 @@
                   icon by adding the relevant class. For example:
                 </p>
                 <pre>
-  &lt;a class=&quot;btn btn-block btn-social btn-twitter&quot;&gt;
+  &lt;a class=&quot;btn btn-block <strong class="text-info">btn-social</strong> btn-twitter&quot;&gt;
     &lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt; Sign in with Twitter
+  &lt;/a&gt;</pre>
+                <p>
+                  Or if you want to just the icon button use it like this:
+                </p>
+                <pre>
+  &lt;a class=&quot;btn <strong class="text-info">btn-social-icon</strong> btn-twitter&quot;&gt;
+    &lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;
   &lt;/a&gt;</pre>
               </li>
             </ol>

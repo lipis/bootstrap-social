@@ -7,13 +7,18 @@
  * https://github.com/lipis/bootstrap-social
  */
 
-.btn-social{position:relative;padding-left:44px;padding-right:12px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;background-color:#555;border-color:rgba(0,0,0,0.2)}.btn-social:hover,.btn-social:focus,.btn-social:active,.btn-social.active,.open .dropdown-toggle.btn-social{color:#fff;background-color:#414141;border-color:rgba(0,0,0,0.2)}
-.btn-social:active,.btn-social.active,.open .dropdown-toggle.btn-social{background-image:none}
-.btn-social.disabled,.btn-social[disabled],fieldset[disabled] .btn-social,.btn-social.disabled:hover,.btn-social[disabled]:hover,fieldset[disabled] .btn-social:hover,.btn-social.disabled:focus,.btn-social[disabled]:focus,fieldset[disabled] .btn-social:focus,.btn-social.disabled:active,.btn-social[disabled]:active,fieldset[disabled] .btn-social:active,.btn-social.disabled.active,.btn-social[disabled].active,fieldset[disabled] .btn-social.active{background-color:#555;border-color:rgba(0,0,0,0.2)}
-.btn-social :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:32px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
-.btn-social.btn-lg{padding-left:61px;padding-right:16px}.btn-social.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
-.btn-social.btn-sm{padding-left:38px;padding-right:10px}.btn-social.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
-.btn-social.btn-xs{padding-left:30px;padding-right:10px}.btn-social.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-social :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social.btn-lg{padding-left:61px}.btn-social.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social.btn-sm{padding-left:38px}.btn-social.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social.btn-xs{padding-left:30px}.btn-social.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding-left:0;padding-right:0;margin-bottom:4px}.btn-social-icon :first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg :first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm :first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social-icon.btn-xs{padding-left:30px}.btn-social-icon.btn-xs :first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon :first-child{border:none;text-align:center;width:100% !important}
+.btn-social-icon.btn-lg{height:45px;width:45px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-sm{height:30px;width:30px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-xs{height:22px;width:22px;padding-left:0;padding-right:0}
 .btn-bitbucket{color:#fff;background-color:#205081;border-color:rgba(0,0,0,0.2)}.btn-bitbucket:hover,.btn-bitbucket:focus,.btn-bitbucket:active,.btn-bitbucket.active,.open .dropdown-toggle.btn-bitbucket{color:#fff;background-color:#183c60;border-color:rgba(0,0,0,0.2)}
 .btn-bitbucket:active,.btn-bitbucket.active,.open .dropdown-toggle.btn-bitbucket{background-image:none}
 .btn-bitbucket.disabled,.btn-bitbucket[disabled],fieldset[disabled] .btn-bitbucket,.btn-bitbucket.disabled:hover,.btn-bitbucket[disabled]:hover,fieldset[disabled] .btn-bitbucket:hover,.btn-bitbucket.disabled:focus,.btn-bitbucket[disabled]:focus,fieldset[disabled] .btn-bitbucket:focus,.btn-bitbucket.disabled:active,.btn-bitbucket[disabled]:active,fieldset[disabled] .btn-bitbucket:active,.btn-bitbucket.disabled.active,.btn-bitbucket[disabled].active,fieldset[disabled] .btn-bitbucket.active{background-color:#205081;border-color:rgba(0,0,0,0.2)}

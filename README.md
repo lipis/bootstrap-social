@@ -28,3 +28,7 @@ Example
       <i class="fa fa-twitter"></i>
       Sign in with Twitter
     </a>
+
+    <a class="btn btn-social-icon btn-twitter">
+      <i class="fa fa-twitter"></i>
+    </a>
