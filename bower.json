@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-social",
+  "version": "4.0.1",
+  "ignore": [
+    "**/.*",
+    "bower.json",
+    "assets",
+    "index.html",
+    "LICENCE",
+    "README.md"
+  ]
+}

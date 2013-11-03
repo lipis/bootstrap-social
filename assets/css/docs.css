@@ -1,14 +1,15 @@
 body{font-weight:300}
 h2{text-align:center;font-weight:300}
-.jumbotron{position:relative;font-size:16px;color:#fff;color:rgba(255,255,255,0.75);text-align:center;background-color:#b94a48;border-radius:0}.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
-.btn-outline{margin-top:15px;margin-bottom:15px;padding:18px 24px;font-size:inherit;font-weight:500;color:#fff;background-color:transparent;border-color:#fff;border-color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.btn-outline:hover,.btn-outline:active{color:#b94a48;background-color:#fff;border-color:#fff}
+.btn-social-icon{margin-bottom:4px}
+.jumbotron{position:relative;font-size:16px;color:#fff;color:rgba(255,255,255,0.75);text-align:center;background-color:#6c71c4;border-radius:0}.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
+.btn-outline{margin-top:15px;margin-bottom:15px;padding:18px 24px;font-size:inherit;font-weight:500;color:#fff;background-color:transparent;border-color:#fff;border-color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.btn-outline:hover,.btn-outline:active{color:#6c71c4;background-color:#fff;border-color:#fff}
 .jumbotron p a,.jumbotron-links a{font-weight:500;color:#fff;transition:all .1s ease-in-out}
 .jumbotron p a:hover,.jumbotron-links a:hover{text-shadow:0 0 10px rgba(255,255,255,0.55)}
 .jumbotron-links{margin-top:15px;margin-bottom:0;padding-left:0;list-style:none;font-size:14px}.jumbotron-links li{display:inline}
 .jumbotron-links li+li{margin-left:20px}
 .how-to{padding:20px}.how-to h2{text-align:center}
 .how-to li{font-size:21px;line-height:1.7;margin-top:20px}.how-to li p{font-size:16px;color:#555}
-.how-to code{font-size:85%;color:#b94a48;background-color:#fcf3f2;word-wrap:break-word;white-space:normal}
+.how-to code{font-size:85%;word-wrap:break-word;white-space:normal}
 footer{text-align:center;opacity:.8;padding:20px 0 40px}
 .links{margin:0;list-style:none;padding-left:0}.links li{display:inline;padding:0 10px}
 .social-class .social-hex{font-family:Monaco,Menlo,Consolas,"Courier New",monospace;font-size:10px;opacity:.3;float:right}
