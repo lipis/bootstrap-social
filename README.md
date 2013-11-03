@@ -2,7 +2,7 @@ Social Buttons for Bootstrap
 ============================
 
 Social Buttons made in pure CSS based on
-[Bootstrap](http://twitter.github.io/bootstrap/) and
+[Bootstrap](http://twbs.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
 [Check the live demo!](http://lipis.github.io/bootstrap-social)
@@ -22,8 +22,9 @@ Available classes
  - `btn-twitter`
  - `btn-vk`
 
-Example
--------
+Examples
+--------
+
     <a class="btn btn-block btn-social btn-twitter">
       <i class="fa fa-twitter"></i>
       Sign in with Twitter
