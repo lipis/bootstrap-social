@@ -1,11 +1,15 @@
 {
   "name": "bootstrap-social",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "ignore": [
     "**/.*",
     "bower.json",
     "assets",
     "index.html",
     "LICENCE"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "font-awesome": ">= 4.0.0"
+  }
 }
