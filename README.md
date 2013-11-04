@@ -7,6 +7,14 @@ Social Buttons made in pure CSS based on
 
 [Check the live demo!](http://lipis.github.io/bootstrap-social)
 
+Installation
+------------
+
+Include the `bootstrap-social.css` or `bootstrap-social.less` in your proejct, or
+install it through [Bower](http://bower.io/):
+
+    bower install bootstrap-social
+
 Available classes
 -----------------
  - `btn-bitbucket`
