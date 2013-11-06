@@ -25,7 +25,7 @@
       <div class="container">
         <h1>Social Buttons for Bootstrap</h1>
         <p>
-          Social Buttons made in pure CSS based on
+          Social Sign-In Buttons made in pure CSS based on
           <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> and
           <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>!
         </p>
@@ -34,7 +34,8 @@
           <li><a href="https://github.com/lipis/bootstrap-social">GitHub Project</a></li>
           <li>Version 4.0.3</li>
         </ul>
-        <iframe src="http://ghbtns.com/github-btn.html?user=lipis&repo=bootstrap-social&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=lipis&amp;repo=bootstrap-social&amp;type=watch&amp;count=true" class="social-share"></iframe>
+        <a href="https://twitter.com/share" class="social-share twitter-share-button" data-url="http://lipis.github.io/bootstrap-social/" data-text="Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome!" data-via="lipis" data-hashtags="bootstrap css">Tweet</a>
       </div>
     </div>
 
@@ -214,5 +215,8 @@
     <!-- Some JavaScript that is used only in the demo, not needed for the icons -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/docs.js"></script>
+    <script>
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
   </body>
 </html>
