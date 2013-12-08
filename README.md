@@ -10,7 +10,7 @@ Social Buttons made in pure CSS based on
 Installation
 ------------
 
-Include the `bootstrap-social.css` or `bootstrap-social.less` in your proejct, or
+Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
 install it through [Bower](http://bower.io/):
 
     bower install bootstrap-social
