@@ -100,7 +100,6 @@ $height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
 .btn-google-plus   { @include btn-social(#dd4b39); }
 .btn-instagram     { @include btn-social(#3f729b); }
 .btn-linkedin      { @include btn-social(#007bb6); }
-.btn-pinterest     { @include btn-social(#cb2027); }
 .btn-tumblr        { @include btn-social(#2c4762); }
 .btn-twitter       { @include btn-social(#55acee); }
 .btn-vk            { @include btn-social(#587ea3); }
