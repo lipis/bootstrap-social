@@ -21,11 +21,11 @@ Available classes
  - `btn-dropbox`
  - `btn-facebook`
  - `btn-flickr`
+ - `btn-foursquare`
  - `btn-github`
  - `btn-google-plus`
  - `btn-instagram`
  - `btn-linkedin`
- - `btn-pinterest`
  - `btn-tumblr`
  - `btn-twitter`
  - `btn-vk`
