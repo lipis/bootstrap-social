@@ -7,14 +7,14 @@
  * https://github.com/lipis/bootstrap-social
  */
 
-$height-base: ($line-height-computed + $padding-base-vertical * 2);
-$height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2);
-$height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2);
-$height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
-
 .btn-social {
+  $bs-height-base: ($line-height-computed + $padding-base-vertical * 2);
+  $bs-height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2);
+  $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2);
+  $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
+
   position: relative;
-  padding-left: $height-base + $padding-base-horizontal;
+  padding-left: $bs-height-base + $padding-base-horizontal;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -24,33 +24,33 @@ $height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
     left: 0;
     top: 0;
     bottom: 0;
-    width: $height-base;
-    line-height: ($height-base + 2);
+    width: $bs-height-base;
+    line-height: ($bs-height-base + 2);
     font-size: 1.6em;
     text-align: center;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
   &.btn-lg {
-    padding-left: $height-lg + $padding-large-horizontal;
+    padding-left: $bs-height-lg + $padding-large-horizontal;
     :first-child {
-      line-height: $height-lg;
-      width: $height-lg;
+      line-height: $bs-height-lg;
+      width: $bs-height-lg;
       font-size: 1.8em;
     }
   }
   &.btn-sm {
-    padding-left: $height-sm + $padding-small-horizontal;
+    padding-left: $bs-height-sm + $padding-small-horizontal;
     :first-child {
-      line-height: $height-sm;
-      width: $height-sm;
+      line-height: $bs-height-sm;
+      width: $bs-height-sm;
       font-size: 1.4em;
     }
   }
   &.btn-xs {
-    padding-left: $height-xs + $padding-small-horizontal;
+    padding-left: $bs-height-xs + $padding-small-horizontal;
     :first-child {
-      line-height: $height-xs;
-      width: $height-xs;
+      line-height: $bs-height-xs;
+      width: $bs-height-xs;
       font-size: 1.2em;
     }
   }
@@ -58,8 +58,8 @@ $height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
 
 .btn-social-icon {
   @extend .btn-social;
-  height: ($height-base + 2);
-  width: ($height-base + 2);
+  height: ($bs-height-base + 2);
+  width: ($bs-height-base + 2);
   padding: 0;
   :first-child {
     border: none;
@@ -67,20 +67,20 @@ $height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
     width: 100%!important;
   }
   &.btn-lg {
-    height: $height-lg;
-    width: $height-lg;
+    height: $bs-height-lg;
+    width: $bs-height-lg;
     padding-left: 0;
     padding-right: 0;
   }
   &.btn-sm {
-    height: ($height-sm + 2);
-    width: ($height-sm + 2);
+    height: ($bs-height-sm + 2);
+    width: ($bs-height-sm + 2);
     padding-left: 0;
     padding-right: 0;
   }
   &.btn-xs {
-    height: ($height-xs + 2);
-    width: ($height-xs + 2);
+    height: ($bs-height-xs + 2);
+    width: ($bs-height-xs + 2);
     padding-left: 0;
     padding-right: 0;
   }
