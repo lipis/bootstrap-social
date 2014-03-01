@@ -41,3 +41,9 @@ Examples
     <a class="btn btn-social-icon btn-twitter">
       <i class="fa fa-twitter"></i>
     </a>
+
+Pull Requests
+-------------
+If you are about to create a new **Pull Request** for adding a new button don't
+update the minified `bootstrap-social.css` file. It will be generated
+automatically after a successful merge.
