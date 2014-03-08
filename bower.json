@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-social",
-  "version": "4.1.1",
+  "version": "4.2.1",
   "main": "bootstrap-social.css",
   "licence": "MIT",
   "ignore": [
@@ -10,7 +10,7 @@
     "LICENCE"
   ],
   "dependencies": {
-    "bootstrap": ">= 3.0.0",
-    "font-awesome": ">= 4.0.0"
+    "bootstrap": "~3",
+    "font-awesome": "~4"
   }
 }
