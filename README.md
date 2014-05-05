@@ -17,6 +17,7 @@ install it through [Bower](http://bower.io/):
 
 Available classes
 -----------------
+ - `btn-adn`
  - `btn-bitbucket`
  - `btn-dropbox`
  - `btn-facebook`
