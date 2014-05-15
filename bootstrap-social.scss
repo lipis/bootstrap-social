@@ -107,3 +107,4 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
 .btn-twitter       { @include btn-social(#55acee); }
 .btn-vimeo         { @include btn-social(#1ab7ea); }
 .btn-vk            { @include btn-social(#587ea3); }
+.btn-yahoo         { @include btn-social(#720e9e); }
