@@ -24,12 +24,18 @@ Available classes
  - `btn-flickr`
  - `btn-foursquare`
  - `btn-github`
- - `btn-google-plus`
+ - `btn-google`
  - `btn-instagram`
  - `btn-linkedin`
+ - `btn-microsoft`
+ - `btn-openid`
+ - `btn-reddit`
+ - `btn-soundcloud`
  - `btn-tumblr`
  - `btn-twitter`
+ - `btn-vimeo`
  - `btn-vk`
+ - `btn-yahoo`
 
 Examples
 --------
