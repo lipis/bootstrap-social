@@ -24,7 +24,7 @@ Available classes
  - `btn-flickr`
  - `btn-foursquare`
  - `btn-github`
- - `btn-google`
+ - `btn-google-plus`
  - `btn-instagram`
  - `btn-linkedin`
  - `btn-microsoft`
