@@ -19,7 +19,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  :first-child {
+  > :first-child {
     position: absolute;
     left: 0;
     top: 0;
