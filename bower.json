@@ -8,9 +8,7 @@
     "LICENCE"
   ],
   "dependencies": {
-    "bootstrap": "~3"
-  },
-  "devDependencies": {
+    "bootstrap": "~3",
     "font-awesome": "~4"
   }
 }
