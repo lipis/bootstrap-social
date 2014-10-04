@@ -29,6 +29,7 @@ Available classes
  - `btn-linkedin`
  - `btn-microsoft`
  - `btn-openid`
+ - `btn-pinterest`
  - `btn-reddit`
  - `btn-soundcloud`
  - `btn-tumblr`
