@@ -29,6 +29,7 @@ Available classes
  - `btn-linkedin`
  - `btn-microsoft`
  - `btn-openid`
+ - `btn-pinterest`
  - `btn-reddit`
  - `btn-soundcloud`
  - `btn-tumblr`
@@ -53,6 +54,6 @@ Examples
 
 Pull Requests
 -------------
-If you are about to create a new **Pull Request** for adding a new button don't
-update the minified `bootstrap-social.css` file. It will be generated
-automatically after a successful merge.
+If you are about to create a new **Pull Request** for adding a new button or 
+fixing something, don't update the minified `bootstrap-social.css` file. It 
+will be generated automatically after a successful merge.
