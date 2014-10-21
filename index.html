@@ -13,6 +13,11 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/font-awesome.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet" >
+
+    <!-- SweetAlert for Bootstrap -->
+    <script src="//lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
+    <link href="//lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
+
     <link href="bootstrap-social.css" rel="stylesheet" >
 
     <script type="text/javascript">
@@ -43,13 +48,21 @@
         <a href="https://github.com/lipis/bootstrap-social" class="btn btn-outline btn-large" onclick="_gaq.push(['_trackEvent', 'exit', 'header', 'GitHub']);"><i class="fa fa-github"></i> View on GitHub</a>
         <ul class="jumbotron-links">
           <li><a href="http://lipis.github.io/bootstrap-sweetalert" onclick="_gaq.push(['_trackEvent', 'exit', 'header', 'bootstrap-sweetalert']);"><i class="fa fa-exclamation-triangle"></i> bootstrap-sweetalert</a></li>
-          <li><a href="http://lipis.github.io/flag-icon-css"  onclick="_gaq.push(['_trackEvent', 'exit', 'header', 'flag-icon-css']);"><i class="fa fa-flag"></i> flag-icon-css</a></li>
+          <li><a href="http://lipis.github.io/flag-icon-css" onclick="_gaq.push(['_trackEvent', 'exit', 'header', 'flag-icon-css']);"><i class="fa fa-flag"></i> flag-icon-css</a></li>
         </ul>
         <iframe src="http://ghbtns.com/github-btn.html?user=lipis&amp;repo=bootstrap-social&amp;type=watch&amp;count=true" class="social-share"></iframe>
         <a href="https://twitter.com/share" class="social-share twitter-share-button" data-url="http://lipis.github.io/bootstrap-social/" data-text="Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome!" data-via="lipis" data-hashtags="bootstrap css">Tweet</a>
       </div>
     </div>
     <div class="container">
+      <div class="row">
+        <div class="col-sm-offset-2 col-sm-8">
+          <div class="alert alert-success lead">
+            Check out the latest project:
+            <a class="sweet-alert-link alert-link" href="#" onclick="_gaq.push(['_trackEvent', 'exit', 'header', 'flag-icon-css']); return null;">SweetAlert for Bootstrap</a>!
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="col-sm-4 social-buttons">
           <h3>The Buttons</h3>
@@ -273,6 +286,29 @@
     <script src="assets/js/docs.js"></script>
     <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+    </script>
+
+    <script>
+      document.querySelector('.sweet-alert-link').onclick = function(){
+        swal({
+          title: "SweetAlert for Bootstrap!",
+          text: "It exactly what you see here.",
+          type: "success",
+          showCancelButton: true,
+          confirmButtonClass: 'btn-success',
+          confirmButtonText: 'Take me there!',
+          cancelButtonText: "Cancel",
+          closeOnConfirm: false,
+          closeOnCancel: false
+        },
+        function(isConfirm){
+          if (isConfirm){
+            window.location.href = "http://lipis.github.io/bootstrap-sweetalert/";
+          } else {
+            swal("Thanks!", "But I still think you should visit it.", "warning");
+          }
+        });
+      };
     </script>
   </body>
 </html>
