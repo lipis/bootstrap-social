@@ -13,47 +13,56 @@
 @bs-height-xs:   (floor(@font-size-small * 1.2) + @padding-small-vertical + 1);
 
 .btn-social {
-  position: relative;
-  padding-left: (@bs-height-base + @padding-base-horizontal);
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  > :first-child {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: @bs-height-base;
-    line-height: (@bs-height-base + 2);
-    font-size: 1.6em;
-    text-align: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.2);
-  }
-  &.btn-lg {
-    padding-left: (@bs-height-lg + @padding-large-horizontal);
-    :first-child {
-      line-height: @bs-height-lg;
-      width: @bs-height-lg;
-      font-size: 1.8em;
+    position: relative;
+    padding-left: (@bs-height-base + @padding-base-horizontal);
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+
+    > :first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: @bs-height-base;
+        line-height: (@bs-height-base + 2);
+        font-size: 1.6em;
+        text-align: center;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
     }
-  }
-  &.btn-sm {
-    padding-left: (@bs-height-sm + @padding-small-horizontal);
-    :first-child {
-      line-height: @bs-height-sm;
-      width: @bs-height-sm;
-      font-size: 1.4em;
+
+    &.btn-lg {
+        padding-left: (@bs-height-lg + @padding-large-horizontal);
+
+        :first-child {
+            line-height: @bs-height-lg;
+            width: @bs-height-lg;
+            font-size: 1.8em;
+        }
     }
-  }
-  &.btn-xs {
-    padding-left: (@bs-height-xs + @padding-small-horizontal);
-    :first-child {
-      line-height: @bs-height-xs;
-      width: @bs-height-xs;
-      font-size: 1.2em;
+
+    &.btn-sm {
+        padding-left: (@bs-height-sm + @padding-small-horizontal);
+
+        :first-child {
+            line-height: @bs-height-sm;
+            width: @bs-height-sm;
+            font-size: 1.4em;
+        }
     }
-  }
+
+    &.btn-xs {
+        padding-left: (@bs-height-xs + @padding-small-horizontal);
+
+        :first-child {
+            line-height: @bs-height-xs;
+            width: @bs-height-xs;
+            font-size: 1.2em;
+        }
+    }
 }
 
 .btn-social-icon {
@@ -107,6 +116,7 @@
 .btn-pinterest     { .btn-social(#cb2027); }
 .btn-reddit        { .btn-social(#eff7ff, #000); }
 .btn-soundcloud    { .btn-social(#ff5500); }
+.btn-steam         { .btn-social(#171a21); }
 .btn-tumblr        { .btn-social(#2c4762); }
 .btn-twitter       { .btn-social(#55acee); }
 .btn-vimeo         { .btn-social(#1ab7ea); }
