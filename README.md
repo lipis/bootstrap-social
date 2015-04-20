@@ -24,7 +24,7 @@ Available classes
  - `btn-flickr`
  - `btn-foursquare`
  - `btn-github`
- - `btn-google-plus`
+ - `btn-google`
  - `btn-instagram`
  - `btn-linkedin`
  - `btn-microsoft`
@@ -54,6 +54,6 @@ Examples
 
 Pull Requests
 -------------
-If you are about to create a new **Pull Request** for adding a new button or 
-fixing something, don't update the minified `bootstrap-social.css` file. It 
+If you are about to create a new **Pull Request** for adding a new button or
+fixing something, don't update the minified `bootstrap-social.css` file. It
 will be generated automatically after a successful merge.
