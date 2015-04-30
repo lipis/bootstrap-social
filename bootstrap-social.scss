@@ -32,7 +32,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   }
   &.btn-lg {
     padding-left: ($bs-height-lg + $padding-large-horizontal);
-    :first-child {
+    > :first-child {
       line-height: $bs-height-lg;
       width: $bs-height-lg;
       font-size: 1.8em;
@@ -40,7 +40,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   }
   &.btn-sm {
     padding-left: ($bs-height-sm + $padding-small-horizontal);
-    :first-child {
+    > :first-child {
       line-height: $bs-height-sm;
       width: $bs-height-sm;
       font-size: 1.4em;
@@ -48,7 +48,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   }
   &.btn-xs {
     padding-left: ($bs-height-xs + $padding-small-horizontal);
-    :first-child {
+    > :first-child {
       line-height: $bs-height-xs;
       width: $bs-height-xs;
       font-size: 1.2em;
@@ -61,7 +61,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   height: ($bs-height-base + 2);
   width: ($bs-height-base + 2);
   padding: 0;
-  :first-child {
+  > :first-child {
     border: none;
     text-align: center;
     width: 100%!important;
