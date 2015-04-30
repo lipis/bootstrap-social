@@ -99,3 +99,7 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+.btn-paypal{color:#fff;background-color:#009cf7;border-color:rgba(0,0,0,0.2)}.btn-paypal:hover,.btn-paypal:focus,.btn-paypal:active,.btn-paypal.active,.open>.dropdown-toggle.btn-paypal{color:#fff;background-color:#008ac5;border-color:rgba(0,0,0,0.2)}
+.btn-paypal:active,.btn-paypal.active,.open>.dropdown-toggle.btn-paypal{background-image:none}
+.btn-paypal.disabled,.btn-paypal[disabled],fieldset[disabled] .btn-paypal,.btn-paypal.disabled:hover,.btn-paypal[disabled]:hover,fieldset[disabled] .btn-paypal:hover,.btn-paypal.disabled:focus,.btn-paypal[disabled]:focus,fieldset[disabled] .btn-paypal:focus,.btn-paypal.disabled:active,.btn-paypal[disabled]:active,fieldset[disabled] .btn-paypal:active,.btn-paypal.disabled.active,.btn-paypal[disabled].active,fieldset[disabled] .btn-paypal.active{background-color:#009cf7;border-color:rgba(0,0,0,0.2)}
+.btn-paypal .badge{color:#009cf7;background-color:#fff}
