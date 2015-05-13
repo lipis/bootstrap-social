@@ -101,6 +101,7 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
 .btn-foursquare    { @include btn-social(#f94877); }
 .btn-github        { @include btn-social(#444444); }
 .btn-google        { @include btn-social(#dd4b39); }
+.btn-google-plus   { @include btn-social(#de4938); }
 .btn-instagram     { @include btn-social(#3f729b); }
 .btn-linkedin      { @include btn-social(#007bb6); }
 .btn-microsoft     { @include btn-social(#2672ec); }
@@ -113,3 +114,5 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
 .btn-vimeo         { @include btn-social(#1ab7ea); }
 .btn-vk            { @include btn-social(#587ea3); }
 .btn-yahoo         { @include btn-social(#720e9e); }
+.btn-youtube       { @include btn-social(#ee0000); }
+.btn-youtube-play  { @include btn-social(#ee0000); }
