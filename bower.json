@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-social",
   "main": "bootstrap-social.css",
-  "licence": "MIT",
+  "license": "MIT",
   "ignore": [
     "assets",
     "index.html",
