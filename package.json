@@ -2,6 +2,10 @@
   "name": "bootstrap-social",
   "version": "4.9.0",
   "main": "bootstrap-social.css",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/lipis/bootstrap-social.git"
+  },
   "license": "MIT",
   "dependencies": {
     "bootstrap": "~3",
