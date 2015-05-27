@@ -1,0 +1,22 @@
+{
+    "name": "bootstrap-social",
+    "description": "Social Sign-In Buttons for Bootstrap.",
+    "type": "bootstrap stylesheet",
+    "keywords": [
+        "Bootstrap Social", "Bootstrap", "social"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lipis",
+            "homepage": "https://github.com/lipis"
+        }
+    ],
+
+    "version": "4.9.0",
+    "minimum-stability": "dev",
+
+    "require": {
+        "bower-asset/bootstrap" : "*"
+    }
+}
