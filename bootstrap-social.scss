@@ -111,6 +111,7 @@ $social-color-twitter       :#55acee;
 $social-color-vimeo         :#1ab7ea;
 $social-color-vk            :#587ea3;
 $social-color-yahoo         :#720e9e;
+$social-color-youtube       :#e52d27;
 
 .btn-adn           { @include btn-social($social-color-adn); }
 .btn-bitbucket     { @include btn-social($social-color-bitbucket); }
@@ -132,3 +133,4 @@ $social-color-yahoo         :#720e9e;
 .btn-vimeo         { @include btn-social($social-color-vimeo); }
 .btn-vk            { @include btn-social($social-color-vk); }
 .btn-yahoo         { @include btn-social($social-color-yahoo); }
+.btn-youtube       { @include btn-social($social-color-youtube); }
