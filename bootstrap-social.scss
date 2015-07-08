@@ -7,10 +7,32 @@
  * https://github.com/lipis/bootstrap-social
  */
 
+/*== bootstrap-social configurations
+ * $bs-social-sites: list of sites to include
+ * $bs-social-sizes: all, none, or combo of xs/sm/md/lg
+ * $bs-social-icon-sizes: all, none, or combo of xs/sm/md/lg
+ * Example: Include only Facebook and LinkedIn default (md) buttons via:
+ *   $bs-social-sites: facebook linkedin
+ *   $bs-social-sizes: md
+ *   $bs-social-icon-sizes: none
+ *   @import path/to/bootstrap-social.scss
+ */
+$bs-social-sites: all !default;
+$bs-social-sizes: all !default;
+$bs-social-icon-sizes: all !default;
+
+// Perform calculations for local variables
 $bs-height-base: ($line-height-computed + $padding-base-vertical * 2);
 $bs-height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2);
 $bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2);
 $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
+@if index($bs-social-sizes, all) {
+  $bs-social-sizes: lg md sm xs;
+}
+@if index($bs-social-icon-sizes, all) {
+  $bs-social-icon-sizes: lg md sm xs;
+}
+$bs-social-sizes: join($bs-social-sizes, $bs-social-icon-sizes);
 
 .btn-social {
   position: relative;
@@ -30,59 +52,73 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
     text-align: center;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
   }
-  &.btn-lg {
-    padding-left: ($bs-height-lg + $padding-large-horizontal);
-    > :first-child {
-      line-height: $bs-height-lg;
-      width: $bs-height-lg;
-      font-size: 1.8em;
+  @if index($bs-social-sizes, lg) {
+    &.btn-lg {
+      padding-left: ($bs-height-lg + $padding-large-horizontal);
+      > :first-child {
+        line-height: $bs-height-lg;
+        width: $bs-height-lg;
+        font-size: 1.8em;
+      }
     }
   }
-  &.btn-sm {
-    padding-left: ($bs-height-sm + $padding-small-horizontal);
-    > :first-child {
-      line-height: $bs-height-sm;
-      width: $bs-height-sm;
-      font-size: 1.4em;
+  @if index($bs-social-sizes, sm) {
+    &.btn-sm {
+      padding-left: ($bs-height-sm + $padding-small-horizontal);
+      > :first-child {
+        line-height: $bs-height-sm;
+        width: $bs-height-sm;
+        font-size: 1.4em;
+      }
     }
   }
-  &.btn-xs {
-    padding-left: ($bs-height-xs + $padding-small-horizontal);
-    > :first-child {
-      line-height: $bs-height-xs;
-      width: $bs-height-xs;
-      font-size: 1.2em;
+  @if index($bs-social-sizes, xs) {
+    &.btn-xs {
+      padding-left: ($bs-height-xs + $padding-small-horizontal);
+      > :first-child {
+        line-height: $bs-height-xs;
+        width: $bs-height-xs;
+        font-size: 1.2em;
+      }
     }
   }
 }
 
-.btn-social-icon {
-  @extend .btn-social;
-  height: ($bs-height-base + 2);
-  width: ($bs-height-base + 2);
-  padding: 0;
-  > :first-child {
-    border: none;
-    text-align: center;
-    width: 100%!important;
-  }
-  &.btn-lg {
-    height: $bs-height-lg;
-    width: $bs-height-lg;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  &.btn-sm {
-    height: ($bs-height-sm + 2);
-    width: ($bs-height-sm + 2);
-    padding-left: 0;
-    padding-right: 0;
-  }
-  &.btn-xs {
-    height: ($bs-height-xs + 2);
-    width: ($bs-height-xs + 2);
-    padding-left: 0;
-    padding-right: 0;
+@if not index($bs-social-sizes, none) {
+  .btn-social-icon {
+    @extend .btn-social;
+    height: ($bs-height-base + 2);
+    width: ($bs-height-base + 2);
+    padding: 0;
+    > :first-child {
+        border: none;
+        text-align: center;
+        width: 100%!important;
+    }
+    @if not index($bs-social-sizes, lg) {
+      &.btn-lg {
+        height: $bs-height-lg;
+        width: $bs-height-lg;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    @if not index($bs-social-sizes, sm) {
+      &.btn-sm {
+        height: ($bs-height-sm + 2);
+        width: ($bs-height-sm + 2);
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    @if not index($bs-social-sizes, xs) {
+      &.btn-xs {
+        height: ($bs-height-xs + 2);
+        width: ($bs-height-xs + 2);
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
   }
 }
 
@@ -91,24 +127,33 @@ $bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
   @include button-variant($color, $color-bg, rgba(0,0,0,.2));
 }
 
-
-.btn-adn           { @include btn-social(#d87a68); }
-.btn-bitbucket     { @include btn-social(#205081); }
-.btn-dropbox       { @include btn-social(#1087dd); }
-.btn-facebook      { @include btn-social(#3b5998); }
-.btn-flickr        { @include btn-social(#ff0084); }
-.btn-foursquare    { @include btn-social(#f94877); }
-.btn-github        { @include btn-social(#444444); }
-.btn-google        { @include btn-social(#dd4b39); }
-.btn-instagram     { @include btn-social(#3f729b); }
-.btn-linkedin      { @include btn-social(#007bb6); }
-.btn-microsoft     { @include btn-social(#2672ec); }
-.btn-openid        { @include btn-social(#f7931e); }
-.btn-pinterest     { @include btn-social(#cb2027); }
-.btn-reddit        { @include btn-social(#eff7ff, #000); }
-.btn-soundcloud    { @include btn-social(#ff5500); }
-.btn-tumblr        { @include btn-social(#2c4762); }
-.btn-twitter       { @include btn-social(#55acee); }
-.btn-vimeo         { @include btn-social(#1ab7ea); }
-.btn-vk            { @include btn-social(#587ea3); }
-.btn-yahoo         { @include btn-social(#720e9e); }
+@each $conf in
+  (adn #687a68),
+  (bitbucket #205081),
+  (dropbox #1087dd),
+  (facebook #3b5998),
+  (flickr #ff0084),
+  (foursquare #f94877),
+  (github #444444),
+  (google #dd4b39),
+  (instagram #3f729b),
+  (linkedin #007bb6),
+  (microsoft #2672ec),
+  (openid #f7931e),
+  (pinterest #cb2027),
+  (reddit #eff7ff #000),
+  (soundcloud #ff5500),
+  (tumblr #2c4762),
+  (twitter #55acee),
+  (vimeo #1ab7ea),
+  (vk #587ea3),
+  (yahoo #720e9e) {
+  @if index($bs-social-sites, nth($conf, 1)) or index($bs-social-sites, all) {
+    @if length($conf) >= 3 {
+      .btn-#{nth($conf, 1)} { @include btn-social(nth($conf, 2), nth($conf, 3)); }
+    }
+    @else if length($conf) == 2 {
+      .btn-#{nth($conf, 1)} { @include btn-social(nth($conf, 2)); }
+    }
+  }
+}
