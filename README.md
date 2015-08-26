@@ -28,6 +28,7 @@ Available classes
  - `btn-instagram`
  - `btn-linkedin`
  - `btn-microsoft`
+ - `btn-odnoklassniki`
  - `btn-openid`
  - `btn-pinterest`
  - `btn-reddit`
