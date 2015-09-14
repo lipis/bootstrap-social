@@ -38,6 +38,7 @@ Available classes
  - `btn-vimeo`
  - `btn-vk`
  - `btn-yahoo`
+ - `btn-youtube`
 
 Examples
 --------
