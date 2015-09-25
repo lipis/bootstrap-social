@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "~3",
-    "font-awesome": "~4.4"
+    "bootstrap": "3.3.5",
+    "font-awesome": "4.4.0"
   }
 }
