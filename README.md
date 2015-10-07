@@ -1,5 +1,6 @@
 Social Buttons for Bootstrap
 ============================
+[![Bower version](https://badge.fury.io/bo/bootstrap-social.svg)](https://badge.fury.io/bo/bootstrap-social)
 
 Social Buttons made in pure CSS based on
 [Bootstrap](http://twbs.github.io/bootstrap/) and
