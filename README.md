@@ -44,12 +44,12 @@ Examples
 
 ```html
 <a class="btn btn-block btn-social btn-twitter">
-  <i class="fa fa-twitter"></i>
+  <span class="fa fa-twitter"></span>
   Sign in with Twitter
 </a>
 
 <a class="btn btn-social-icon btn-twitter">
-  <i class="fa fa-twitter"></i>
+  <span class="fa fa-twitter"></span>
 </a>
 ```
 
