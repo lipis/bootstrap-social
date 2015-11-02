@@ -14,14 +14,9 @@
     <link href="assets/css/font-awesome.css" rel="stylesheet">
     <link href="assets/css/docs.css" rel="stylesheet" >
 
-    <!-- SweetAlert for Bootstrap -->
-    <script src="//lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
-    <link href="//lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
-
     <link href="bootstrap-social.css" rel="stylesheet" >
 
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-42119746-1']);
       _gaq.push(['_trackPageview']);
@@ -31,9 +26,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
-
   </head>
 
   <body>
@@ -283,29 +276,6 @@
     <script src="assets/js/docs.js"></script>
     <script>
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-    </script>
-
-    <script>
-      document.querySelector('.sweet-alert-link').onclick = function(){
-        swal({
-          title: "SweetAlert for Bootstrap!",
-          text: "It exactly what you see here.",
-          type: "success",
-          showCancelButton: true,
-          confirmButtonClass: 'btn-success',
-          confirmButtonText: 'Take me there!',
-          cancelButtonText: "Cancel",
-          closeOnConfirm: false,
-          closeOnCancel: false
-        },
-        function(isConfirm){
-          if (isConfirm){
-            window.location.href = "http://lipis.github.io/bootstrap-sweetalert/";
-          } else {
-            swal("Thanks!", "But I still think you should visit it.", "warning");
-          }
-        });
-      };
     </script>
   </body>
 </html>
