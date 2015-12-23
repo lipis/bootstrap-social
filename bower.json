@@ -1,6 +1,10 @@
 {
   "name": "bootstrap-social",
-  "main": "bootstrap-social.css",
+  "main": [
+    "bootstrap-social.css",
+    "bootstrap-social.less",
+    "bootstrap-social.scss"
+  ],
   "license": "MIT",
   "ignore": [
     "assets",
