@@ -39,6 +39,7 @@ Available classes
  - `btn-twitter`
  - `btn-vimeo`
  - `btn-vk`
+ - `btn-wordpress`
  - `btn-yahoo`
 
 Examples
