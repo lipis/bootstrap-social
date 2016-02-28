@@ -35,6 +35,7 @@ Available classes
  - `btn-pinterest`
  - `btn-reddit`
  - `btn-soundcloud`
+ - `btn-spotify`
  - `btn-tumblr`
  - `btn-twitter`
  - `btn-vimeo`
