@@ -7,10 +7,10 @@
  * https://github.com/lipis/bootstrap-social
  */
 
-$bs-height-base: ($line-height-computed + $padding-base-vertical * 2);
-$bs-height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2);
-$bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2);
-$bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1);
+$bs-height-base: ($line-height-computed + $padding-base-vertical * 2) !default;
+$bs-height-lg:   (floor($font-size-large * $line-height-base) + $padding-large-vertical * 2) !default;
+$bs-height-sm:   (floor($font-size-small * 1.5) + $padding-small-vertical * 2) !default;
+$bs-height-xs:   (floor($font-size-small * 1.2) + $padding-small-vertical + 1) !default;
 
 .btn-social {
   position: relative;
