@@ -34,6 +34,7 @@ Available classes
  - `btn-openid`
  - `btn-pinterest`
  - `btn-reddit`
+ - `btn-snapchat`
  - `btn-soundcloud`
  - `btn-tumblr`
  - `btn-twitter`
