@@ -1,3 +1,4 @@
+
 Social Buttons for Bootstrap
 ============================
 [![npm version](https://badge.fury.io/js/bootstrap-social.svg)](https://badge.fury.io/js/bootstrap-social)
@@ -55,8 +56,7 @@ Examples
 </a>
 ```
 
-Pull Requests
--------------
-If you are about to create a new **Pull Request** for adding a new button or
-fixing something, don't update the minified `bootstrap-social.css` file. It
-will be generated automatically after a successful merge.
+Notes
+-----
+For now I won't accept any request for new buttons as I'm planning to
+split the main CSS to have separate files for all of the requested ones.
