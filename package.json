@@ -9,6 +9,6 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "~3",
-    "font-awesome": "~4.6"
+    "font-awesome": "~4.7.0"
   }
 }
