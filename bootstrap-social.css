@@ -145,3 +145,9 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled.focus,.btn-yahoo[disabled].focus,fieldset[disabled] .btn-yahoo.focus{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+.btn-youtube{color:#fff;background-color:#e52d27;border-color:rgba(0,0,0,0.2)}.btn-youtube:focus,.btn-youtube.focus{color:#fff;background-color:#cd201f;border-color:rgba(0,0,0,0.2)}
+.btn-youtube:hover{color:#fff;background-color:#cd201f;border-color:rgba(0,0,0,0.2)}
+.btn-youtube:active,.btn-youtube.active,.open>.dropdown-toggle.btn-youtube{color:#fff;background-color:#cd201f;border-color:rgba(0,0,0,0.2)}.btn-youtube:active:hover,.btn-youtube.active:hover,.open>.dropdown-toggle.btn-youtube:hover,.btn-youtube:active:focus,.btn-youtube.active:focus,.open>.dropdown-toggle.btn-youtube:focus,.btn-youtube:active.focus,.btn-youtube.active.focus,.open>.dropdown-toggle.btn-youtube.focus{color:#fff;background-color:#b31217;border-color:rgba(0,0,0,0.2)}
+.btn-youtube:active,.btn-youtube.active,.open>.dropdown-toggle.btn-youtube{background-image:none}
+.btn-youtube.disabled:hover,.btn-youtube[disabled]:hover,fieldset[disabled] .btn-youtube:hover,.btn-youtube.disabled:focus,.btn-youtube[disabled]:focus,fieldset[disabled] .btn-youtube:focus,.btn-youtube.disabled.focus,.btn-youtube[disabled].focus,fieldset[disabled] .btn-youtube.focus{background-color:#e52d27;border-color:rgba(0,0,0,0.2)}
+.btn-youtube .badge{color:#e52d27;background-color:#fff}

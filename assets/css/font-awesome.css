@@ -1362,6 +1362,9 @@
 .fa-yahoo:before {
   content: "\f19e";
 }
+.fa-youtube:before {
+  content: "\f167";
+}
 .fa-google:before {
   content: "\f1a0";
 }
