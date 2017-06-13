@@ -41,6 +41,7 @@ Available classes
  - `btn-vimeo`
  - `btn-vk`
  - `btn-yahoo`
+ - `btn-gitlab`
 
 Examples
 --------
