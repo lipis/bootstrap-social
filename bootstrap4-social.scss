@@ -1,0 +1,140 @@
+.btn-social {
+  position     : relative;
+  overflow     : hidden;
+  padding-left : 44px;
+  text-align   : left;
+  white-space  : nowrap;
+  text-overflow: ellipsis;
+  > :first-child {
+    font-size     : 1.6em;
+    line-height   : 34px;
+    top           : 0;
+    bottom        : 0;
+    left          : 0;
+    width         : 32px;
+    text-align    : center;
+    position      : absolute;
+    vertical-align: middle;
+    border-right  : 1px solid rgba(0, 0, 0, .2);
+  }
+  &.btn-lg {
+    padding-left: 61px;
+    > :first-child {
+      font-size  : 1.8em;
+      line-height: 45px;
+      width      : 45px;
+    }
+  }
+  &.btn-sm {
+    padding-left: 38px;
+    > :first-child {
+      font-size  : 1.4em;
+      line-height: 28px;
+      width      : 28px;
+    }
+  }
+  &.btn-xs {
+    padding-left: 30px;
+    > :first-child {
+      font-size  : 1.2em;
+      line-height: 20px;
+      width      : 20px;
+    }
+  }
+}
+.btn-social-icon {
+  width  : 34px;
+  height : 34px;
+  padding: 0;
+  @extend .btn-social;
+  > :first-child {
+    width     : 100%!important;
+    text-align: center;
+    border    : none;
+  }
+  &.btn-lg {
+    width        : 45px;
+    height       : 45px;
+    padding-right: 0;
+    padding-left : 0;
+  }
+  &.btn-sm {
+    width        : 30px;
+    height       : 30px;
+    padding-right: 0;
+    padding-left : 0;
+  }
+  &.btn-xs {
+    width        : 22px;
+    height       : 22px;
+    padding-right: 0;
+    padding-left : 0;
+  }
+}
+@mixin btn-social($color-bg, $color: #fff) {
+  background-color: $color-bg;
+  @include button-variant($color, $color-bg, rgba(0,0,0,.2));
+}
+.btn-adn {
+  @include btn-social(#d87a68);
+}
+.btn-bitbucket {
+  @include btn-social(#205081);
+}
+.btn-dropbox {
+  @include btn-social(#1087dd);
+}
+.btn-facebook {
+  @include btn-social(#3b5998);
+}
+.btn-flickr {
+  @include btn-social(#ff0084);
+}
+.btn-foursquare {
+  @include btn-social(#f94877);
+}
+.btn-github {
+  @include btn-social(#444);
+}
+.btn-google {
+  @include btn-social(#dd4b39);
+}
+.btn-instagram {
+  @include btn-social(#3f729b);
+}
+.btn-linkedin {
+  @include btn-social(#007bb6);
+}
+.btn-microsoft {
+  @include btn-social(#2672ec);
+}
+.btn-odnoklassniki {
+  @include btn-social(#f4731c);
+}
+.btn-openid {
+  @include btn-social(#f7931e);
+}
+.btn-pinterest {
+  @include btn-social(#cb2027);
+}
+.btn-reddit {
+  @include btn-social(#eff7ff, #000);
+}
+.btn-soundcloud {
+  @include btn-social(#f50);
+}
+.btn-tumblr {
+  @include btn-social(#2c4762);
+}
+.btn-twitter {
+  @include btn-social(#55acee);
+}
+.btn-vimeo {
+  @include btn-social(#1ab7ea);
+}
+.btn-vk {
+  @include btn-social(#587ea3);
+}
+.btn-yahoo {
+  @include btn-social(#720e9e);
+}
