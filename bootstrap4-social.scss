@@ -138,3 +138,41 @@
 .btn-yahoo {
   @include btn-social(#720e9e);
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+@include media-breakpoint-up(xs) {
+  html {
+    font-size: .6rem;
+  }
+  .fa-vertical-alignment-hack {
+    line-height: 22px !important;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: .7rem;
+  }
+  .fa-vertical-alignment-hack {
+    line-height: 26px !important;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) {
+  html {
+    font-size: .8rem;
+  }
+  .fa-vertical-alignment-hack {
+    line-height: 30px !important;
+  }
+}
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: .9rem;
+  }
+  .fa-vertical-alignment-hack {
+    line-height: 34px !important;
+  }
+}
