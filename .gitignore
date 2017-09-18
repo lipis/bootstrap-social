@@ -1,3 +1,5 @@
 .DS_Store
 dev
 node_modules
+.sass-cache
+yarn.lock
