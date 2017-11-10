@@ -14,6 +14,6 @@
     "prepublish": "sass bootstrap-social.scss bootstrap-social.css"
   },
   "devDependencies": {
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.6.0"
   }
 }

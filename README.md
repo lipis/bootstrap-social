@@ -1,22 +1,19 @@
 
 Social Buttons for Bootstrap
 ============================
-[![npm version](https://badge.fury.io/js/bootstrap-social.svg)](https://badge.fury.io/js/bootstrap-social)
-[![Bower version](https://badge.fury.io/bo/bootstrap-social.svg)](https://badge.fury.io/bo/bootstrap-social)
 
 Social Buttons made in pure CSS based on
 [Bootstrap](http://twbs.github.io/bootstrap/) and
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/)!
 
-[Check the live demo!](http://lipis.github.io/bootstrap-social)
+[Check the live demo!](http://niftylettuce.com/bootstrap-social/)
 
 Installation
 ------------
 
-Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
-install it through [Bower](http://bower.io/):
+Include the `bootstrap-social.css` or `bootstrap-social.scss` in your project.
 
-    bower install bootstrap-social
+You can also include `_custom.scss` if you'd like to import your own `_functions`, `_mixins`, and `_variables` (see source of `bootstrap-social.scss` for insight).
 
 Available classes
 -----------------
@@ -55,8 +52,3 @@ Examples
   <span class="fa fa-twitter"></span>
 </a>
 ```
-
-Notes
------
-For now I won't accept any request for new buttons as I'm planning to
-split the main CSS to have separate files for all of the requested ones.
