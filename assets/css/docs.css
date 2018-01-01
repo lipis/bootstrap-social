@@ -1,20 +1,132 @@
-
-body{font-weight:300;-webkit-font-smoothing:antialiased}
-h2{text-align:center;font-weight:300}
-.btn-social-icon{margin-bottom:4px}
-.jumbotron{position:relative;font-size:16px;color:#fff;color:rgba(255,255,255,0.75);text-align:center;border-radius:0;padding-bottom:80px;background-image:-webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);background-image:-o-linear-gradient(left, #720e9e 0, #dd4b39 100%);background-image:linear-gradient(to right, #720e9e 0, #dd4b39 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff720e9e', endColorstr='#ffdd4b39', GradientType=1)}.jumbotron h1{margin-bottom:15px;font-weight:300;letter-spacing:-1px;color:#fff}
-.jumbotron iframe{width:100px !important;height:20px !important;border:none;overflow:hidden;margin:2px}
-.jumbotron p a,.jumbotron .jumbotron-links a{font-weight:500;color:#fff}
-.jumbotron .jumbotron-links{margin-top:15px;margin-bottom:0;padding-left:0;list-style:none;font-size:14px}.jumbotron .jumbotron-links li{display:inline}
-.jumbotron .jumbotron-links li+li{margin-left:20px}
-.jumbotron .bottom{position:absolute;bottom:0;left:0;right:0;padding:18px;background-color:rgba(0,0,0,0.2)}
-.btn-outline{margin-top:15px;margin-bottom:15px;padding:18px 24px;font-size:inherit;font-weight:500;color:#fff;background-color:transparent;border-color:#fff;border-color:rgba(255,255,255,0.5);transition:all .1s ease-in-out}.btn-outline:hover,.btn-outline:active{color:#720e9e;background-color:#fff;border-color:#fff}
-.how-to{padding:20px}.how-to h2{text-align:center}
-.how-to li{font-size:21px;line-height:1.7;margin-top:20px}.how-to li p{font-size:16px;color:#555}
-.how-to code{font-size:85%;word-wrap:break-word;white-space:normal}
-footer{text-align:center;opacity:.8;padding:50px;background-image:-webkit-linear-gradient(left, #dd4b39 0, #720e9e 100%);background-image:-o-linear-gradient(left, #dd4b39 0, #720e9e 100%);background-image:linear-gradient(to right, #dd4b39 0, #720e9e 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ff720e9e', GradientType=1)}footer a{color:#fff}footer a:hover{color:#fff}
-.links{margin:0;list-style:none;padding-left:0}.links li{display:inline;padding:0 10px}
-.social-class .social-hex{font-family:Monaco,Menlo,Consolas,"Courier New",monospace;font-size:10px;opacity:.3;float:right}
-.social-class li{margin-bottom:4px}.social-class li:hover .social-hex{opacity:1}
-.social-class li:hover code{background-color:#e8e8ee}
-.social-class code{cursor:default}
+body {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+h2 {
+  text-align: center;
+  font-weight: 300;
+}
+.jumbotron {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  border-radius: 0;
+  padding-bottom: 80px;
+  background-image: -webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);
+  background-image: -o-linear-gradient(left, #720e9e 0, #dd4b39 100%);
+  background-image: linear-gradient(to right, #720e9e 0, #dd4b39 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#ff720e9e',
+      endColorstr='#ffdd4b39',
+      GradientType=1
+    );
+}
+.jumbotron h1 {
+  margin-bottom: 15px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  color: #fff;
+}
+.jumbotron iframe {
+  width: 100px !important;
+  height: 20px !important;
+  border: none;
+  overflow: hidden;
+  margin: 2px;
+}
+.jumbotron p a,
+.jumbotron .jumbotron-links a {
+  font-weight: 500;
+  color: #fff;
+}
+.jumbotron .jumbotron-links {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 14px;
+}
+.jumbotron .jumbotron-links li {
+  display: inline;
+}
+.jumbotron .jumbotron-links li + li {
+  margin-left: 20px;
+}
+.jumbotron .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.how-to {
+  padding: 20px;
+}
+.how-to h2 {
+  text-align: center;
+}
+.how-to li {
+  font-size: 21px;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+.how-to li p {
+  font-size: 16px;
+  color: #555;
+}
+.how-to code {
+  font-size: 85%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+footer {
+  text-align: center;
+  opacity: 0.8;
+  padding: 50px;
+  background-image: -webkit-linear-gradient(left, #dd4b39 0, #720e9e 100%);
+  background-image: -o-linear-gradient(left, #dd4b39 0, #720e9e 100%);
+  background-image: linear-gradient(to right, #dd4b39 0, #720e9e 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#ffdd4b39',
+      endColorstr='#ff720e9e',
+      GradientType=1
+    );
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+.links {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.links li {
+  display: inline;
+  padding: 0 10px;
+}
+.social-class .social-hex {
+  font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+  font-size: 10px;
+  opacity: 0.3;
+  float: right;
+}
+.social-class li {
+  margin-bottom: 4px;
+}
+.social-class li:hover .social-hex {
+  opacity: 1;
+}
+.social-class li:hover code {
+  background-color: #e8e8ee;
+}
+.social-class code {
+  cursor: default;
+}
