@@ -1,15 +1,11 @@
 {
   "name": "@ladjs/bootstrap-social",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/ladjs/bootstrap-social.git"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "bootstrap": ">= 4",
-    "font-awesome": ">= 4"
-  },
   "scripts": {
     "prepublish": "sass bootstrap-social.scss bootstrap-social.css"
   },
