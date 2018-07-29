@@ -47,12 +47,12 @@ Examples
 
 ```html
 <a class="btn btn-block btn-social btn-twitter">
-  <span class="fa fa-twitter"></span>
+  <span class="fab fa-twitter"></span>
   Sign in with Twitter
 </a>
 
 <a class="btn btn-social-icon btn-twitter">
-  <span class="fa fa-twitter"></span>
+  <span class="fab fa-twitter"></span>
 </a>
 ```
 
