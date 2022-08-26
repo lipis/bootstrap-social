@@ -42,6 +42,12 @@ Available classes
  - `btn-vk`
  - `btn-yahoo`
 
+UseCDN
+--------
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/bootstrap-social@5.1.1/bootstrap-social.css">
+```
+
 Examples
 --------
 
