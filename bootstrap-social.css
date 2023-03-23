@@ -25,9 +25,19 @@
 .btn-adn:active,.btn-adn.active,.open>.dropdown-toggle.btn-adn{background-image:none}
 .btn-adn.disabled:hover,.btn-adn[disabled]:hover,fieldset[disabled] .btn-adn:hover,.btn-adn.disabled:focus,.btn-adn[disabled]:focus,fieldset[disabled] .btn-adn:focus,.btn-adn.disabled.focus,.btn-adn[disabled].focus,fieldset[disabled] .btn-adn.focus{background-color:#d87a68;border-color:rgba(0,0,0,0.2)}
 .btn-adn .badge{color:#d87a68;background-color:#fff}
-.btn-bitbucket{color:#fff;background-color:#205081;border-color:rgba(0,0,0,0.2)}.btn-bitbucket:focus,.btn-bitbucket.focus{color:#fff;background-color:#163758;border-color:rgba(0,0,0,0.2)}
+.btn-bitbucket{color:#fff;background-color:#205081;border-color:rgba(0,0,0,0.2)}
+.btn-bitbucket:focus,
+.btn-bitbucket.focus{color:#fff;background-color:#163758;border-color:rgba(0,0,0,0.2)}
 .btn-bitbucket:hover{color:#fff;background-color:#163758;border-color:rgba(0,0,0,0.2)}
-.btn-bitbucket:active,.btn-bitbucket.active,.open>.dropdown-toggle.btn-bitbucket{color:#fff;background-color:#163758;border-color:rgba(0,0,0,0.2)}.btn-bitbucket:active:hover,.btn-bitbucket.active:hover,.open>.dropdown-toggle.btn-bitbucket:hover,.btn-bitbucket:active:focus,.btn-bitbucket.active:focus,.open>.dropdown-toggle.btn-bitbucket:focus,.btn-bitbucket:active.focus,.btn-bitbucket.active.focus,.open>.dropdown-toggle.btn-bitbucket.focus{color:#fff;background-color:#0f253c;border-color:rgba(0,0,0,0.2)}
+.btn-bitbucket:active,.btn-bitbucket.active,
+.open>.dropdown-toggle.btn-bitbucket
+{color:#fff;background-color:#163758;border-color:rgba(0,0,0,0.2)}
+.btn-bitbucket:active:hover,.btn-bitbucket.active:hover,.open>
+.dropdown-toggle.btn-bitbucket:hover,.btn-bitbucket:active:focus,
+.btn-bitbucket.active:focus,.open>.dropdown-toggle.btn-bitbucket:focus,
+.btn-bitbucket:active.focus,.btn-bitbucket.active.focus,.open>
+.dropdown-toggle.btn-bitbucket.focus
+{color:#fff;background-color:#0f253c;border-color:rgba(0,0,0,0.2)}
 .btn-bitbucket:active,.btn-bitbucket.active,.open>.dropdown-toggle.btn-bitbucket{background-image:none}
 .btn-bitbucket.disabled:hover,.btn-bitbucket[disabled]:hover,fieldset[disabled] .btn-bitbucket:hover,.btn-bitbucket.disabled:focus,.btn-bitbucket[disabled]:focus,fieldset[disabled] .btn-bitbucket:focus,.btn-bitbucket.disabled.focus,.btn-bitbucket[disabled].focus,fieldset[disabled] .btn-bitbucket.focus{background-color:#205081;border-color:rgba(0,0,0,0.2)}
 .btn-bitbucket .badge{color:#205081;background-color:#fff}
@@ -145,3 +155,47 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled.focus,.btn-yahoo[disabled].focus,fieldset[disabled] .btn-yahoo.focus{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+
+.btn-snapchat{color:#fff;background-color:#FFFC00;border-color:rgba(0,0,0,0.2)}
+.btn-snapchat:focus,
+.btn-snapchat.focus{color:#fff;background-color:#eeea04;border-color:rgba(0,0,0,0.2)}
+.btn-snapchat:hover{color:#fff;background-color:#d8d407;border-color:rgba(0,0,0,0.2)}
+.btn-snapchat:active,.btn-snapchat.active,
+.open>.dropdown-toggle.btn-snapchat
+{color:#fff;background-color:#FFFC00;border-color:rgba(0,0,0,0.2)}
+.btn-snapchat:active:hover,.btn-snapchat.active:hover,.open>
+.dropdown-toggle.btn-snapchat:hover,.btn-snapchat:active:focus,
+.btn-snapchat.active:focus,.open>.dropdown-toggle.btn-snapchat:focus,
+.btn-snapchat:active.focus,.btn-snapchat.active.focus,.open>
+.dropdown-toggle.btn-snapchat.focus
+{color:#fff;background-color:#FFFC00;border-color:rgba(0,0,0,0.2)}
+.btn-snapchat:active,.btn-snapchat.active,.open>
+.dropdown-toggle.btn-snapchat{background-image:none}
+.btn-snapchat.disabled:hover,.btn-snapchat[disabled]:hover,fieldset[disabled]
+.btn-snapchat:hover,.btn-snapchat.disabled:focus,.btn-snapchat[disabled]
+ :focus,fieldset[disabled] .btn-snapchat:focus,.btn-snapchat.disabled.focus,
+ .btn-snapchat[disabled].focus,fieldset[disabled] 
+ .btn-snapchat.focus{background-color:#FFFC00;border-color:rgba(0,0,0,0.2)}
+ .btn-snapchat .badge{color:#FFFC00;background-color:#fff}
+
+ .btn-whatsapp{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:focus,
+ .btn-whatsapp.focus{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:hover{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active,.btn-whatsapp.active,
+ .open>.dropdown-toggle.btn-snapchat
+ {color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active:hover,.btn-whatsapp.active:hover,.open>
+ .dropdown-toggle.btn-whatsapp:hover,.btn-whatsapp:active:focus,
+ .btn-whatsapp.active:focus,.open>.dropdown-toggle.btn-whatsapp:focus,
+ .btn-whatsapp:active.focus,.btn-whatsapp.active.focus,.open>
+ .dropdown-toggle.btn-whatsapp.focus
+ {color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active,.btn-whatsapp.active,.open>
+ .dropdown-toggle.btn-whatsapp{background-image:none}
+ .btn-whatsapp.disabled:hover,.btn-whatsapp[disabled]:hover,fieldset[disabled]
+ .btn-whatsapp:hover,.btn-whatsapp.disabled:focus,.btn-whatsapp[disabled]
+  :focus,fieldset[disabled] .btn-whatsapp:focus,.btn-whatsapp.disabled.focus,
+  .btn-whatsapp[disabled].focus,fieldset[disabled] 
+  .btn-whatsapp.focus{background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+  .btn-whatsapp .badge{color:#25D366;background-color:#fff}
