@@ -178,4 +178,24 @@
  .btn-snapchat.focus{background-color:#FFFC00;border-color:rgba(0,0,0,0.2)}
  .btn-snapchat .badge{color:#FFFC00;background-color:#fff}
 
-
+ .btn-whatsapp{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:focus,
+ .btn-whatsapp.focus{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:hover{color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active,.btn-whatsapp.active,
+ .open>.dropdown-toggle.btn-snapchat
+ {color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active:hover,.btn-whatsapp.active:hover,.open>
+ .dropdown-toggle.btn-whatsapp:hover,.btn-whatsapp:active:focus,
+ .btn-whatsapp.active:focus,.open>.dropdown-toggle.btn-whatsapp:focus,
+ .btn-whatsapp:active.focus,.btn-whatsapp.active.focus,.open>
+ .dropdown-toggle.btn-whatsapp.focus
+ {color:#fff;background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+ .btn-whatsapp:active,.btn-whatsapp.active,.open>
+ .dropdown-toggle.btn-whatsapp{background-image:none}
+ .btn-whatsapp.disabled:hover,.btn-whatsapp[disabled]:hover,fieldset[disabled]
+ .btn-whatsapp:hover,.btn-whatsapp.disabled:focus,.btn-whatsapp[disabled]
+  :focus,fieldset[disabled] .btn-whatsapp:focus,.btn-whatsapp.disabled.focus,
+  .btn-whatsapp[disabled].focus,fieldset[disabled] 
+  .btn-whatsapp.focus{background-color:#25D366;border-color:rgba(0,0,0,0.2)}
+  .btn-whatsapp .badge{color:#25D366;background-color:#fff}
